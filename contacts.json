@@ -1,0 +1,79 @@
+[
+  {
+    "firstName": "John",
+    "lastName": "Doe",
+    "email": "john.doe@example.com",
+    "favoriteColor": "Blue",
+    "birthday": "1995-03-14"
+  },
+  {
+    "firstName": "Mary",
+    "lastName": "Johnson",
+    "email": "mary.johnson@example.com",
+    "favoriteColor": "Red",
+    "birthday": "1998-07-22"
+  },
+  {
+    "firstName": "David",
+    "lastName": "Smith",
+    "email": "david.smith@example.com",
+    "favoriteColor": "Green",
+    "birthday": "1992-11-05"
+  },
+  {
+    "firstName": "Sarah",
+    "lastName": "Brown",
+    "email": "sarah.brown@example.com",
+    "favoriteColor": "Purple",
+    "birthday": "2000-01-30"
+  },
+  {
+    "firstName": "Michael",
+    "lastName": "Wilson",
+    "email": "michael.wilson@example.com",
+    "favoriteColor": "Orange",
+    "birthday": "1994-09-18"
+  },
+  {
+    "firstName": "Emily",
+    "lastName": "Davis",
+    "email": "emily.davis@example.com",
+    "favoriteColor": "Pink",
+    "birthday": "1999-05-12"
+  },
+  {
+    "firstName": "Daniel",
+    "lastName": "Taylor",
+    "email": "daniel.taylor@example.com",
+    "favoriteColor": "Yellow",
+    "birthday": "1991-12-08"
+  },
+  {
+    "firstName": "Olivia",
+    "lastName": "Anderson",
+    "email": "olivia.anderson@example.com",
+    "favoriteColor": "Teal",
+    "birthday": "1997-04-25"
+  },
+  {
+    "firstName": "James",
+    "lastName": "Thomas",
+    "email": "james.thomas@example.com",
+    "favoriteColor": "Black",
+    "birthday": "1989-08-03"
+  },
+  {
+    "firstName": "Ava",
+    "lastName": "Moore",
+    "email": "ava.moore@example.com",
+    "favoriteColor": "White",
+    "birthday": "2001-02-17"
+  },
+  {
+    "firstName": "Faith",
+    "lastName": "Idowu",
+    "email": "idowutise@gmail.com",
+    "favoriteColor": "Blue",
+    "birthday": "2007-08-14"
+  }
+]
