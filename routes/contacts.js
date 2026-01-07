@@ -3,6 +3,6 @@ const contactController = require("../controllers/contacts");
 
 // Define routes for contacts
 routes.get("/", contactController.getAllContacts);
-routes.get("/:fname/:lname", contactController.getContactByFnameAndLname);
+routes.get("/:id", contactController.getContactById);
 
 module.exports = routes;
