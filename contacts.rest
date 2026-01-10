@@ -1,0 +1,32 @@
+GET http://localhost:3000/api  HTTP/1.1
+
+
+###
+GET http://localhost:3000/api/695bd8d0a63e702ee702db68 
+
+### 
+POST http://localhost:3000/api 
+Content-Type: application/json
+
+{
+    "firstName": "Faith",
+    "lastName": "Idowu",
+    "email": "faith.idowu@example.com",
+    "favoriteColor": "Blue",
+    "birthday": "2007-08-14"
+}
+
+###
+PUT http://localhost:3000/api/695bd8d0a63e702ee702db68 HTTP/1.1
+Content-Type: application/json
+
+{
+    "firstName": "John",
+    "lastName": "Doe",
+    "email": "john.doe@example.com",
+    "favoriteColor": "Green",
+    "birthday": "1990-01-01"
+} 
+
+###
+DELETE http://localhost:3000/api/696293c2a97644f894433172 HTTP/1.1

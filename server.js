@@ -12,16 +12,23 @@ const PORT = process.env.PORT || 3000;
 app.use(express.json());
 
 app.get("/", (req, res) => {
+  // swagger.tag=["Hello World"];
     res.send("Welcome to the Contacts API");
 });
+
+
 
 app
   .use(bodyParser.json())
   .use((req, res, next) => {
     res.setHeader('Access-Control-Allow-Origin', '*');
+    res.setHeader('Access-Control-Allow-Headers', 'Origin, X-Requested-With, Content-Type, Accept');
+    res.setHeader('Access-Control-Allow-Methods', 'GET, POST, PUT, DELETE');
     next();
   })
   .use('/api', contactRoutes);
+
+app.use("/", require("./routes/swagger")); 
 
 mongodb.initDb((err, mongodb) => {
   if (err) {
